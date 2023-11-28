@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Thiết kế trang web với Java</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-zinc-200 md:flex md:flex-col md:gap-10 md:p-4">
+        <header>.</header>
+        <main class="mt-5 md:flex md:gap-5">
+            <nav class="bg-gray-950 text-orange-500 md:w-4/12 rounded-md shadow-md p-4 h-fit md:sticky md:top-0 block">
+                <ul class="flex flex-col gap-4">
+                    <li><a class="hover:underline text-xl font-bold text-orange-500" onclick="scrollToSection('section1')" href="#">Tại sao chọn Java</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">1. Độc lập nền tảng</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">2. Hệ sinh thái mạnh mẽ</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">3. Tính bảo mật</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">4. Khả năng mở rộng</a></li>
+                    <li><a class="hover:underline text-xl font-bold text-orange-500" onclick="scrollToSection('section2')" href="#">Các công nghệ trong Java</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">1. Spring Framework</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">2. JavaServer Pages (JSP)</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">3. Hibernate</a></li>
+                    <li class="hover:underline text-xl font-bold text-orange-500" onclick="scrollToSection('section3')" href="#">Phát triển web với Java</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">1. Thiết lập môi trường phát triển</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">2. Các khái niệm cơ bản trong Java</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">3. Khám phá các Framework</a></li>
+                    <li class=" text-sm font-semibold text-orange-300">4. Nắm bắt giao diện người dùng</a></li>
+                </ul>
+            </nav>
+            <article class="md:w-8/12 bg-white rounded-md shadow-md p-4 flex flex-col gap-7">
+                <h1 class="text-3xl uppercase font-bold text-center">Mở khóa sức mạnh phát triển web với Java</h1>
+                <p>
+                    Trong cảnh quan ngày càng biến động của phát triển web, Java tiếp tục là một ngôn ngữ lập trình mạnh mẽ và linh hoạt, 
+                    mang đến vô số cơ hội cho việc xây dựng ứng dụng web động và có khả năng mở rộng. 
+                    Cho dù bạn là một nhà phát triển có kinh nghiệm hay chỉ mới bắt đầu hành trình của mình, 
+                    việc khám phá phát triển web với Java mở ra cánh cửa đến một thế giới đầy sáng tạo và hiệu quả.
+                </p>
+                <div class="flex flex-col gap-5">
+                    <div class="flex flex-col gap-3">
+                        <section id="section1"><h2 class="text-xl font-bold">Tại sao chọn Java</h2></section>
+                        <h3 class="font-bold pl-7">1. Độc lập nền tảng</h3>
+                        <p>
+                            Triết lý "viết một lần, chạy mọi nơi" của Java cho phép 
+                            nhà phát triển tạo ứng dụng có thể chạy trên bất kỳ thiết bị nào có 
+                            Java Virtual Machine (JVM). Tính tương thích qua các nền tảng 
+                            giúp đảm bảo sự tiếp cận rộng rãi.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="font-bold pl-7">2. Hệ sinh thái mạnh mẽ</h3>
+                        <p>
+                            Java có một hệ sinh thái phong phú với thư viện, framework và công cụ, 
+                            giúp tối ưu hóa quá trình phát triển. 
+                            Các framework như Spring và Hibernate giúp nhà phát triển xây dựng ứng dụng mạnh mẽ, 
+                            có cấu trúc và dễ bảo trì.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="font-bold pl-7">3. Tính bảo mật</h3>
+                        <p>
+                            Bảo mật là một ưu tiên hàng đầu trong phát triển web, 
+                            và Java nổi tiếng với những tính năng bảo mật tích hợp. 
+                            Từ xác thực và ủy quyền đến giao tiếp an toàn, 
+                            Java cung cấp một nền tảng vững chắc để phát triển ứng dụng web an toàn.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="font-bold pl-7">4. Khả năng mở rộng</h3>
+                        <p>
+                            Khả năng mở rộng của Java là một yếu tố quyết định cho các doanh nghiệp đang phát triển. 
+                            Cho dù bạn đang xử lý dự án quy mô nhỏ hay ứng dụng doanh nghiệp lớn, 
+                            khả năng mở rộng của Java đảm bảo hiệu suất tối ưu dưới các công việc làm việc khác nhau.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <div class="flex flex-col gap-3">
+                        <section id="section2"><h2 class="text-xl font-bold">Các công nghệ trong Java</h2></section>
+                        <h3 class="font-bold pl-7">1. Spring Framework</h3>
+                        <p>
+                            Là một trụ cột trong phát triển Java, framework Spring đơn giản hóa quá trình tạo ứng dụng 
+                            phức tạp cấp doanh nghiệp. Spring cung cấp giải pháp toàn diện cho việc chèn phụ thuộc, 
+                            lập trình hướng khía cạnh và nhiều hơn nữa.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="font-bold pl-7">2. JavaServer Pages (JSP)</h3>
+                        <p>
+                            JSP cho phép tạo trang web động và dữ liệu bằng cách sử dụng Java. 
+                            Với sự tích hợp mượt mà của nó với mã Java, 
+                            JSP cho phép nhà phát triển nhúng mã Java trực tiếp vào trang HTML, 
+                            giúp quá trình hiển thị nội dung trở nên hiệu quả.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="font-bold pl-7">3. Hibernate</h3>
+                        <p>
+                            Đối với việc tương tác mượt mà với cơ sở dữ liệu, 
+                            Hibernate là một framework mạnh mẽ về Object-Relational Mapping (ORM). 
+                            Nó giúp đơn giản hóa các thao tác cơ sở dữ liệu, 
+                            đảm bảo quá trình quản lý dữ liệu suôn sẻ.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <div class="flex flex-col gap-3">
+                        <section id="section3"><h2 class="text-xl font-bold">Phát triển web với Java</h2></section>
+                        <h3 class="font-bold pl-7">1. Thiết lập môi trường phát triển</h3>
+                        <p>
+                            Cài đặt Java Development Kit (JDK) và một Môi Trường Phát Triển Tích Hợp (IDE) 
+                            như Eclipse hoặc IntelliJ IDEA để bắt đầu hành trình phát triển của bạn.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="font-bold pl-7">2. Học các khái niệm cơ bản</h3>
+                        <p>
+                            Hiểu rõ về các khái niệm cơ bản của Java như lớp, đối tượng, 
+                            kiểu dữ liệu và cấu trúc điều khiển. 
+                            Một nền tảng vững về Java là quan trọng để phát triển web.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="font-bold pl-7">3. Khám phá các Framework</h3>
+                        <p>
+                            Đào sâu vào các framework như Spring Boot để tăng tốc quá trình phát triển. 
+                            Những framework này cung cấp cài đặt trước được thiết lập, 
+                            giúp bạn tập trung vào việc xây dựng tính năng thay vì đối mặt với mã nguồn mẫu.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="font-bold pl-7">4. Nắm bắt giao diện người dùng</h3>
+                        <p>
+                            Bổ sung kỹ năng của bạn với các công nghệ như HTML, CSS và JavaScript. 
+                            Hiểu biết về Stack (các phần tử được thêm vào và xóa khỏi theo thứ tự Last In First Out) 
+                            là quan trọng để tạo ra ứng dụng web động và tương tác.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-xl font-bold">Tổng quan</h2>
+                    <p>
+                        Bắt đầu hành trình phát triển web với Java mở ra những cơ hội không giới hạn cho sự sáng tạo và phát triển. 
+                        Với những tính năng mạnh mẽ, sự hỗ trợ mạnh mẽ từ cộng đồng và đa dạng các công cụ có sẵn, 
+                        Java tiếp tục là lựa chọn hàng đầu cho những nhà phát triển xây dựng các ứng dụng web của tương lai.
+                        Sẵn sàng để khám phá toàn bộ tiềm năng của Java trong phát triển web? Hãy đắm chìm và chứng kiến khả năng biến đổi của ngôn ngữ lập trình mạnh mẽ này.
+                    </p>
+                </div>
+            </article>
+        </main>
+        <footer class="md:flex md:justify-between block bg-gray-950 text-orange-500 text-center p-8 shadow-md rounded-md">
+            <h3 class="text-semibold text-lg">Copyright 2023 - All right reserved</h3>
+            <p>Nguyễn Việt An</p>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400&family=Oswald:wght@300&display=swap');
+
+body {
+    color: #1B1B1B;
+}
+header {
+    background-image: url("https://th.bing.com/th/id/R.ac5a948bc5b41ebd74c23be426770183?rik=UFIk3DN0aiXRnw&pid=ImgRaw&r=0");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
